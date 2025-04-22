@@ -34,13 +34,12 @@ OrionLib:MakeNotification({
 
 ---Button And Toggle Adding---
 
-Tab2:AddToggle({
+Tab2:AddButton({
 	Name = "👻 Universal ESP 👻",
-	Default = false,
-	Callback = function(Value)
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/crowncompany/UniversalBone/refs/heads/main/Script1')))()
-		print(Value)
-	end    
+	Callback = function()
+     loadstring(game:HttpGet(('https://raw.githubusercontent.com/crowncompany/UniversalBone/refs/heads/main/Script1')))()
+      		print("Script Loaded")
+  	end    
 })
 Tab2:AddToggle({
 	Name = "☠️ Universal Aimbot ☠️",
