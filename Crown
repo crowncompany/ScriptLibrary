@@ -41,13 +41,12 @@ Tab2:AddButton({
       		print("Script Loaded")
   	end    
 })
-Tab2:AddToggle({
+Tab2:AddButton({
 	Name = "☠️ Universal Aimbot ☠️",
-	Default = false,
-	Callback = function(Value)
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/crowncompany/UniversalLock/refs/heads/main/Script2')))()
-		print(Value)
-	end    
+	Callback = function()
+     loadstring(game:HttpGet(('https://raw.githubusercontent.com/crowncompany/UniversalLock/refs/heads/main/Script2')))()
+      		print("Script Loaded")
+  	end    
 })
 Tab2:AddButton({
 	Name = "🏎️ Driving Empire 🏎️",
