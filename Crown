@@ -55,11 +55,17 @@ Tab2:AddButton({
       		print("Script Loaded")
   	end    
 })
-
+Tab2:AddButton({
+	Name = "♾️ Infinite Yield ♾️",
+	Callback = function()
+     loadsting(game:HttpGet('https://github.com/crowncompany/infiniteyield/tree/main'))()
+      		print("Script Loaded")
+  	end    
+})
 ---Info Text---
 
 Tab1:AddLabel("Creator of scripts : ashy1828 / monstraa")
 Tab1:AddLabel("Created : 04/20/25")
 Tab1:AddLabel("OwnerShip : 👑Crown Cheats👑")
 Tab1:AddLabel("UI : Orion")
-Tab1:AddLabel("Update : v1.0.5")
+Tab1:AddLabel("Update : v1.0.6")
